@@ -1,0 +1,5 @@
+#!/bin/bash
+WINEPREFIX=~/.oblmod winetricks isolate_home 
+echo "Install sandboxed"
+cd ~/.oblmod/drive_c/Oblivion/
+WINEPREFIX=~/.oblmod wine obse_loader.exe -editor -notimeout

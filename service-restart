@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo systemctl start fancontrol.service
+sudo systemctl stop g13.service
+sudo systemctl start g13.service
+scc-daemon stop
+scc-daemon start

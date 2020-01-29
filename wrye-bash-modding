@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/.oblmod/drive_c/Oblivion/Mopy && WINEPREFIX=~/.oblmod wine "Wrye Bash.exe" 
+

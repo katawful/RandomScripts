@@ -1,0 +1,3 @@
+#!/bin/bash
+cd "/run/media/SSD/SteamLibrary/steamapps/common/Enderal/"
+STEAM_COMPAT_DATA_PATH=/run/media/SSD/SteamLibrary/steamapps/compatdata/933480/  /home/kat/.local/share/Steam/compatibilitytools.d/proton_tkg_4.21.r8.g3a14d63a/proton waitforexitandrun "/run/media/SSD/SteamLibrary/steamapps/common/Enderal/EnderalLODGEN.exe"

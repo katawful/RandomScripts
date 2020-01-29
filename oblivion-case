@@ -1,0 +1,7 @@
+#!/bin/bash
+# Execute this script in the Oblivion/Data directory.
+echo "checking for directory conflicts in Data ..."
+find . -type d | tr A-Z a-z | sort | uniq -c | sort -nr | grep -v '^  *1 '
+echo "checking for filename conflicts in Data ..."
+find . -type f | tr A-Z a-z | sort | uniq -c | sort -nr | grep -v '^  *1 '
+echo "Done"

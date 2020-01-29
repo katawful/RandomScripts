@@ -1,0 +1,3 @@
+#!/bin/bash
+#Null Audio Sink for streaming
+pactl load-module module-null-sink && pactl load-module module-combine-sink slaves=3,2

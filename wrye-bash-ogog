@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd /run/media/SSD/Oblivion-Stuff/wrye-bash-gog/ && WINEPREFIX=~/.oblivion wine "Wrye Bash.exe" 

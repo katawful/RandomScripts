@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd /run/media/SSD/SteamLibrary/steamapps/common/Oblivion/ && wine TES4Edit.exe

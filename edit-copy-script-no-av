@@ -1,0 +1,16 @@
+#!/bin/bash
+
+cd ~/oblivion-git/Inventory-Alchemy/Item-Scripts/
+# the variables we care about
+#echo Enter the desired script name:
+#read SCRIPT_NEW	# script name
+echo Enter the effect name with no spaces:
+read NAME	# effect name as a string
+echo Enter the effect ID:
+read CHAR	# effect id as a char
+
+# copying the script
+cp IBAChameleon.obl "IBA$NAME.obl"
+# the editing part
+sed -i "s/CHML/$CHAR/g" "IBA$NAME.obl"
+sed -i "s/Chameleon/$NAME/g" "IBA$NAME.obl"

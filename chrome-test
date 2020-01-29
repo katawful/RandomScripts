@@ -1,0 +1,9 @@
+#!/bin/bash
+
+chromefocus=$(xdotool getwindowfocus getwindowname | grep -c "Google Chrome")
+
+if [ "$chromefocus" -gt "0" ]; then
+        xdotool windowminimize $(xdotool getactivewindow)
+    else
+        wmctrl -xa "google-chrome.Google-chrome" || /usr/bin/google-chrome
+fi

@@ -1,0 +1,21 @@
+#!/bin/bash
+cd "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/Plugins/" # plugins working directory
+file="/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/Plugins/game.txt" # file to read
+if [ -f "$file" ] # checks if file exists
+then
+    mv "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/Plugins/" "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/Game/" # move game directory out
+    mv "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/CS/Plugins/" "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/" # move CSE directory in
+    echo "CSE plugins successfully moved" # return files to CSE mode
+fi
+cd "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/" # ENB working directory
+enb="/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/d3d9.dll" # ENB file
+if [ -f "$enb" ] # checks if ENB is enabled
+then
+    mv "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/d3d9.dll" "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/d3d9-cse.cse" # enable ENB
+    echo "ENB successfully disabled"
+fi
+if [ ! -f "$file" ] && [ ! -f "$enb" ] # checks if both files exist
+then
+    echo "CSE mode enabled" # check if files are proper
+    cd $HOME
+fi

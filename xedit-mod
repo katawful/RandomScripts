@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export WINEPREFIX=~/.oblmod
+cd ~/.oblmod/drive_c/Oblivion/
+
+winetricks isolate_home
+
+wine TES4Edit.exe

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g13d --config ~/.config/g13d/bind.bind

@@ -1,0 +1,6 @@
+#!/bin/bash
+cd "/home/kat/Scripts/" && bash cse-no.sh # set game mode
+cd /run/media/SSD/Oblivion-Stuff/Mopy/ &&  wine "Wrye Bash.exe" # WINEPREFIX="$HOME/.wine32"
+#WINEPREFIX="$HOME/.wine32" wine python Z:/run/media/SSD/Oblivion-Stuff/wrye-bash/Mopy/Wrye\ Bash\ Launcher.pyw -o Z:/run/media/SSD/SteamLibrary/steamapps/common/Oblivion
+
+
