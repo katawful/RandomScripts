@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 cd ~/oblivion-git/Inventory-Alchemy/Item-Scripts/
 # the variables we care about

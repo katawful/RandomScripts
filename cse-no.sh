@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 cd "/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/Plugins/" # working directory
 file="/run/media/SSD/SteamLibrary/steamapps/common/Oblivion/Data/OBSE/Plugins/game.txt" # file to read
 if [ ! -f "$file" ] # checks if file doesn't exist

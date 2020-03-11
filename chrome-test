@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 chromefocus=$(xdotool getwindowfocus getwindowname | grep -c "Google Chrome")
 

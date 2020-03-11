@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 sudo systemctl start fancontrol.service
 sudo systemctl stop g13.service

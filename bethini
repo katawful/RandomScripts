@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
-cd "/run/media/SSD/Oblivion-Stuff/BethINI Standalone" && wine BethINI.exe
+cd ~/.local/share/Modding-Tools/BethINI/
+wine BethINI.exe

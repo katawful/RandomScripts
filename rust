@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cd /run/media/SSD/Oblivion-Stuff/ && WINEPREFIX=~/.oblmod wine RuSTReportTool.exe

@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
-cd /run/media/SSD/Oblivion-Stuff/BOSS/ && WINEPREFIX=~/.oblmod wine boss_gui.exe
+cd ~/.local/share/Modding-Tools/BOSS/
+WINEPREFIX=~/.oblivion wine ~/.local/share/Modding-Tools/BOSS/boss_gui.exe

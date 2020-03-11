@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 cd "/usr/games/"
 
 PCSX2 "/media/kat/HDD/ROMs/PS2/Dark Cloud 2.iso" --cfgpath="/home/kat/Documents/PCSX2/Dark Cloud 2/" --fullscreen --nogui

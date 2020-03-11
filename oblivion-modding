@@ -1,5 +1,5 @@
-#!/bin/bash
-WINEPREFIX=~/.oblmod winetricks isolate_home 
+#!/bin/zsh
+WINEPREFIX=~/.oblivion winetricks isolate_home 
 echo "Install sandboxed"
-cd ~/.oblmod/drive_c/Oblivion/
-WINEPREFIX=~/.oblmod wine 'obse_loader.exe'
+cd ~/.oblivion/drive_c/Oblivion/
+GALLIUM_HUD_PERIOD=0.07 GALLIUM_HUD=GPU-load,cpu0+cpu1+cpu2+cpu3,.dfps,draw-calls,VRAM-usage WINEPREFIX=~/.oblivion wine 'obse_loader.exe'

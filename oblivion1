@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 WINEPREFIX=~/.oblivion winetricks isolate_home 
 echo "Install sandboxed"
 cd /run/media/SSD/Oblivion/

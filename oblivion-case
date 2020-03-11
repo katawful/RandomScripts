@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # Execute this script in the Oblivion/Data directory.
 echo "checking for directory conflicts in Data ..."
 find . -type d | tr A-Z a-z | sort | uniq -c | sort -nr | grep -v '^  *1 '
