@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 
-export WINEPREFIX=~/.oblmod
-cd ~/.oblmod/drive_c/Oblivion/
+export WINEPREFIX=~/.oblivion
+cd ~/.oblivion/drive_c/Oblivion/
 
 winetricks isolate_home
 
