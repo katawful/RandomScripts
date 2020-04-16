@@ -1,5 +1,6 @@
 #!/bin/zsh
-WINEPREFIX=~/.oblivion winetricks isolate_home 
+WINEPREFIX=~/.obl winetricks isolate_home 
 echo "Install sandboxed"
-cd ~/.oblivion/drive_c/Oblivion/
-WINEPREFIX=~/.oblivion wine obse_loader.exe -editor -notimeout
+cd ~/.obl/drive_c/Oblivion/
+WINEPREFIX=~/.obl wine obse_loader.exe -editor -notimeout
+#wine obse_loader.exe -editor -notimeout

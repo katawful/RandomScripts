@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# package temp
+echo "Package temp: " && sensors | grep Package | awk '{print substr($4, 2, length($4)-3)}' | tr "\\n" " " | sed 's/ /°C /g' | sed 's/ $//'
+
+# core temps
+echo "\nCore temps: " && sensors | grep Core | awk '{print substr($3, 2, length($3)-3)}' | tr "\\n" " " | sed 's/ /'°C'\n/g' | sed 's/ $//'
+
+# gpu temp
+echo "GPU core temp:" && sensors | grep edge | awk '{print substr($2, 2, length($2)-3)}' | tr "\\n" " " | sed 's/ /°C /g' | sed 's/ $//'

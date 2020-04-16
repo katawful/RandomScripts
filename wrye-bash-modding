@@ -1,3 +1,3 @@
 #!/bin/zsh
-cd ~/.oblivion/drive_c/Oblivion/Mopy && WINEPREFIX=~/.oblivion wine "Wrye Bash.exe" 
+cd ~/.obl/drive_c/Oblivion/Mopy && WINEPREFIX=~/.obl wine "Wrye Bash.exe" 
 

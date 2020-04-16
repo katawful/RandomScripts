@@ -1,3 +1,0 @@
-#!/bin/zsh
-
-cd /run/media/SSD/Oblivion-Stuff/wrye-zsh-gog/ && WINEPREFIX=~/.oblivion wine "Wrye Bash.exe" 

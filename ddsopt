@@ -1,3 +1,0 @@
-#!/bin/zsh
-cd "/run/media/SSD/SteamLibrary/steamapps/common/Enderal/"
-WINEPREFIX=~/.test wine "DDSopt x64.exe"

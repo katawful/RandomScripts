@@ -1,3 +1,0 @@
-#!/bin/zsh
-cd "/run/media/SSD/SteamLibrary/steamapps/compatdata/933480/pfx/drive_c/Program Files (x86)/LOOT/"
-WINEPREFIX=/run/media/SSD/SteamLibrary/steamapps/compatdata/933480/pfx/  /home/kat/.local/share/Steam/compatibilitytools.d/proton_tkg_4.21.r8.g3a14d63a/dist/bin/wine "LOOT.exe"

@@ -1,3 +1,0 @@
-#!/bin/zsh
-
-g13d --config ~/.config/g13d/bind.bind

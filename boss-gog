@@ -1,3 +1,0 @@
-#!/bin/zsh
-
-cd /run/media/SSD/Oblivion-Stuff/BOSS/ && WINEPREFIX=~/.oblivion wine boss_gui.exe

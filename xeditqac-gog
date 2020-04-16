@@ -1,3 +1,0 @@
-#!/bin/zsh
-
-cd /run/media/SSD/Oblivion/ && WINEPREFIX=~/.oblivion wine TES4EditQuickAutoClean.exe

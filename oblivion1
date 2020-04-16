@@ -1,5 +1,0 @@
-#!/bin/zsh
-WINEPREFIX=~/.oblivion winetricks isolate_home 
-echo "Install sandboxed"
-cd /run/media/SSD/Oblivion/
-DXVK_HUD=fps,frametimes,drawcalls,gpuload,memory RADV_PERFTEST=llvm WINEPREFIX=~/.oblivion wine 'obse_loader.exe'
